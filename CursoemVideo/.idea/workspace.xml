@@ -24,6 +24,7 @@
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="$USER_HOME$/git-course/Readme.md" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
@@ -52,10 +53,10 @@
     </order>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1338" />
-    <option name="height" value="740" />
+    <option name="x" value="-1" />
+    <option name="y" value="-1" />
+    <option name="width" value="1368" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -68,8 +69,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="Scratches and Consoles" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/MeusProjetos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -223,7 +225,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="770" extended-state="6" />
+    <frame x="-1" y="-1" width="1368" height="770" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2498096" />
