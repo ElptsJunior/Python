@@ -7,8 +7,15 @@
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
-    <filemarks />
+    <filemarks>
+      <file name="$USER_HOME$/Documents/MeusProjetos/Challenge004.py" timestamp="1598560657460">
+        <mark key="[" line="4" column="0" />
+      </file>
+    </filemarks>
     <jumps />
+  </component>
+  <component name="VimRegisterSettings">
+    <registers />
   </component>
   <component name="VimSearchSettings">
     <search>
