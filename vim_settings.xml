@@ -8,14 +8,26 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Documents/MeusProjetos/Challenge004.py" timestamp="1598560657460">
-        <mark key="[" line="4" column="0" />
+      <file name="$USER_HOME$/Documents/MeusProjetos/Challenge004.py" timestamp="1598564024018">
+        <mark key="[" line="5" column="6" />
+        <mark key="]" line="5" column="6" />
+        <mark key="." line="5" column="6" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1598564144263">
+        <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps />
   </component>
   <component name="VimRegisterSettings">
-    <registers />
+    <registers>
+      <register name="&quot;" type="4">
+        <text>)</text>
+      </register>
+      <register name="-" type="4">
+        <text>)</text>
+      </register>
+    </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
