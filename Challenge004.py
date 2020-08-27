@@ -1,5 +1,5 @@
 print('='*100)
-print('''BUILD AN SCRIPT THAT INDENTIFY PRYMERY TYPE AND RETURN TO USER'''.title())
+print('''BUILD AN SCRIPT THAT CHECK PRIMITIVE TYPE AND RETURN TO USER'''.title())
 print('='*100)
 
 value = input('Please insert any value : \n')
