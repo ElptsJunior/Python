@@ -8,12 +8,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Documents/MeusProjetos/Challenge004.py" timestamp="1598564024018">
-        <mark key="[" line="5" column="6" />
+      <file name="$USER_HOME$/Documents/MeusProjetos/Challenge004.py" timestamp="1598564819505">
+        <mark key="[" line="4" column="46" />
         <mark key="]" line="5" column="6" />
         <mark key="." line="5" column="6" />
       </file>
-      <file name="/Dummy.txt" timestamp="1598564144263">
+      <file name="/Dummy.txt" timestamp="1598564870101">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
