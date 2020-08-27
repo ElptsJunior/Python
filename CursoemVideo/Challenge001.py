@@ -1,0 +1,5 @@
+print('='*130)
+print("BUILD AN PYTHON SCRIPT THAT READ AN NAME AND SHOW AN MENSAGE OF GRETTINS ACORD WITH TYPED VALUE".title())
+print('='*130)
+name = str(input('Welcome Little Locust please type your name : \n'))
+print('Hello {}! nice to meet you '.format(name).capitalize())
