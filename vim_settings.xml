@@ -3,7 +3,14 @@
     <editor />
   </component>
   <component name="VimKeySettings">
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed OPEN_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed CLOSE_BRACKET</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
@@ -17,8 +24,17 @@
       <file name="/Dummy.txt" timestamp="1598653636785">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Documents/MeusProjetos/Python/Challenge006.py" timestamp="1598655611505">
+        <mark key="'" line="9" column="23" />
+        <mark key="[" line="11" column="106" />
+        <mark key="]" line="9" column="23" />
+        <mark key="^" line="9" column="23" />
+        <mark key="." line="9" column="22" />
+      </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="9" column="23" filename="$USER_HOME$/Documents/MeusProjetos/Python/Challenge006.py" />
+    </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers />
