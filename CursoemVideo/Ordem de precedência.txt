@@ -1,0 +1,40 @@
+ Ordem de precedência matemática :
+
+1) () qualquer valor entre paretesses deve ser resolvido primeiro 
+2) ** esponenciação 
+3) * / // %  multiplicação, divisão , divisão inteira e resto da divisão  na ordem em que aparecer ja que tem a mesma prioridade 
+4) + - adição e subtração
+
+
+observação :  por exemplo em uma divisão 5 / 2 = segue a seguinte logica 5|2 da 2 porque 2*2 da 4 para 5 sobra 1 
+sendo que o valor 2 é a resultado da divisão interira ( valor antes da virgula) e o um ' o que sobra é o resto da divisão 
+sendo assim 
+
+5/2 = 2.5
+5//2 = 2
+5 % 2 = 1
+
+na expressão 
+
+5+3*2== 11 
+
+primeiro se calcula 3*2 == 6
+depois 5+6== 11
+
+
+outro exemplo 
+
+3*5+4**2 ==
+
+1) 4**2 == 16
+2) 3*5 == 15
+3 15+16 == 31
+
+
+3*(5+4)**2==
+
+1) 5+9 == 9
+2) 9** 2 == 81 ( 9 ao quadrado igual a 81)
+3) 3* 81 == 243
+
+

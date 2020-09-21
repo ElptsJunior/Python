@@ -1,0 +1,6 @@
+interpretador = ajuda na tarefa de traduzir a linguagem humana para para linguagem de maquina , na condição de tradudiz a linguagem pura ( sem girias)
+
+IDE = ambiente de desenvolvimento integrado 9 ela serve para facilitar seu processo de programação dando sugestões e completando frases .
+ 
+exemplo o pyCharm 
+d 

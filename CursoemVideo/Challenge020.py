@@ -1,16 +1,18 @@
-print(''' 
-The same  professor of challenge 019 wants sort the him studantes of an presentation in class . buil an program 
-that read four names and sort this names on screen .''')
+print('''
+Now the same professor of challenge 019.py  want's sort for an presentation of works ! build an program that read 4 
+names and show in sorted order.  
+''')
+import random
 
-from random import shuffle
-index = 0 # for work's with whille loop
-presentation_list =[]
-speech = str
+index = 0
+work_list = []
 
 while index < 4:
-    presentation_list.append(input(' Please insert your name '))
-    print('Right')
-    speech = presentation_list
-    index = index + 1
+   work_list.append(input(' Please little Locust a name : '))
+   index = index + 1
+print('Original list ', work_list)
+random.shuffle(work_list)
+print('List after first shuffle ', work_list)
+random.shuffle(work_list)
+print('List after Second Shuffle',work_list)
 
-print('This is the picked order of presentation is {}'.format(shuffle(speech)))
