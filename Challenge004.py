@@ -1,6 +1,6 @@
-print('='*100)
+print('\033[32m = \033[m'*25)
 print('''BUILD AN SCRIPT THAT CHECK PRIMITIVE TYPE AND RETURN TO USER'''.title())
-print('='*100)
+print('\033[32m = \033[m'*25)
 
 value = input('Please insert any value : \n')
 print('primary type {}'.format(type(value)))
