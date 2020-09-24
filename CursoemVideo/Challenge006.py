@@ -1,6 +1,6 @@
-print('='*200)
-number = int(input('Welcome little locust! , please insert any number'))
-print('='*200)
+
+number = int(input('\033[7m Welcome little locust! , please insert any number \033[m \n' ))
+
 double = pow(number, 2)
 triple = pow(number, 3)
 square_root = pow(number, 0.5) # Or if you want calc by precedence order , type number**0.5 or mumber**(1/2)
