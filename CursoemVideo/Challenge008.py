@@ -1,9 +1,6 @@
-''''
-Build an program that can read in meters and convert in centimeters an milimeters
-'''
-print('='*200)
-print('Conversor')
-print('='*200)
+
+print('\033[7m Build an program that can read in meters and convert in centimeters an milimeters\033[m')
+
 meters = int(input('Welcome little Locust, insert the value to convert : '))
 centimeters = meters*100
 milimeter = meters*1000
