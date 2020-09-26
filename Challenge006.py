@@ -1,5 +1,5 @@
 print('='*130)
-print("Build an program that read a number and show's the double, triple and square root :".title())
+print(' \033[7m  Build an program that read a number and shows the double, triple and square root : \033[m ' )
 print('='*130)
 
 from math import sqrt
