@@ -8,4 +8,4 @@ width = float(input('Now insert the width , please .. :'))
 print('ok, width of {} meters '.format(width))
 area = height*width
 print(' your area is the {} meters powered of two'.format(area))
-print('and the quantity litre necessary for collor all area is {}'.format(area/4))
+print('and the quantity litre necessary for collor all area is {}'.format(area/2))  
