@@ -1,31 +1,43 @@
 #Joquenpo
+from random import randint
 print ("""1 Pedra
 2 papel 
 3 tesoura""")
 
-import random
-selected = str(input(' escolha seu numero'))
+player = int(input(' escolha seu numero'))
+cpu = randint(1,3)# sorteia de 1 a 3
+resul = player,cpu
 print('Jo')
 print("ken")
 print("po")
-opcoes = random.randint(1,3)
-if selected == 1 and opcoes == 1:
+
+print(" A maquina escolheu {}".format(cpu))
+# Possibilidades da
+# Tesoura
+if resul == (3,1):
+    print("Tesoura perde pra pedra ")
+
+elif resul == (3,2):
+    print("Tesoura vence o papel")
+elif resul == (3,3):
+    print("Empate")
+
+# Possibilidades do papel
+if resul == (2,1):
+    print("Papel vence pedra")
+    print("jogador vence")
+elif resul == (2,2):
+    print("Empate")
+elif resul == (2,3):
+    print("Papel perde para tesoura")
+
+# Possibilidades da Pedra
+if resul == (1,1):
     print("empate")
-elif selected == 1 and opcoes == 2:
-        print("Pedra perde pro papel")
-elif selected == 1 and opcoes == 3:
-    print(" pedra ganha da tesoura")
+
+elif resul == (1,2):
+    print("Pedra perde pro papel")
+elif resul == (1,3):
+    print("Pedra vence a tesoura")
 
 
-
-
-
-
-
-
-
-"""if  selected == "stone" and   cpu == "paper":
-  print("you choose {} and cpu choose {}".format(selected, cpu))
-elif selected in ('scisor') and cpu in ('paper'):
-  print("you choose {} and cpu choose {}".format(selected, cpu))
-"""
