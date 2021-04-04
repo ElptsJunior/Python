@@ -1,43 +1,48 @@
 #Joquenpo
+from time import sleep # sera usado para dar aquele intervalo entre os prints
 from random import randint
-print ("""1 Pedra
-2 papel 
-3 tesoura""")
+print ("""0 Pedra
+1 papel 
+2 tesoura""")
+capa = ('Pedra','Papel', 'Tesoura')
 
 player = int(input(' escolha seu numero'))
-cpu = randint(1,3)# sorteia de 1 a 3
+cpu = randint(0,2)# sorteia de 0 a 2 devido ao array
 resul = player,cpu
 print('Jo')
+sleep(1)
 print("ken")
+sleep(1)
 print("po")
 
-print(" A maquina escolheu {}".format(cpu))
+print(" A maquina escolheu {}".format(capa[cpu]))# mascara os valores de capa sobre os numeros de cpu dentro na posicao
+print(" o jogador jogou {}".format(capa[player]))
 # Possibilidades da
 # Tesoura
-if resul == (3,1):
+if resul == (2,0):
     print("Tesoura perde pra pedra ")
 
-elif resul == (3,2):
+elif resul == (2,1):
     print("Tesoura vence o papel")
-elif resul == (3,3):
+elif resul == (2,2):
     print("Empate")
 
 # Possibilidades do papel
-if resul == (2,1):
+if resul == (1,0):
     print("Papel vence pedra")
-    print("jogador vence")
-elif resul == (2,2):
+
+elif resul == (1,1):
     print("Empate")
-elif resul == (2,3):
+elif resul == (1,2):
     print("Papel perde para tesoura")
 
 # Possibilidades da Pedra
-if resul == (1,1):
+if resul == (0,0):
     print("empate")
 
-elif resul == (1,2):
+elif resul == (0,1):
     print("Pedra perde pro papel")
-elif resul == (1,3):
+elif resul == (0,2):
     print("Pedra vence a tesoura")
 
 
