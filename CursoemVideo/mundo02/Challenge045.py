@@ -7,7 +7,7 @@ print ("""0 Pedra
 capa = ('Pedra','Papel', 'Tesoura')
 
 player = int(input(' escolha seu numero'))
-cpu = randint(0,2)# sorteia de 0 a 2 devido ao array
+cpu = randint(0,2)# Sorteia numeros entre 0,1,2
 resul = player,cpu
 print('Jo')
 sleep(1)
