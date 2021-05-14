@@ -1,9 +1,15 @@
-import math
-a = 100
-b = 200
-weight = []
-peso = float(input(' seu peso e?'))
-weight.append(peso)
+maior = 0
+menor = 0
+for p in range(1,6):
+    peso = float(input(' seu peso e {} pessoa ').format(p))
+    if p == 1:
+        maior = peso
+        menor = peso
 
-print(max(a,b))
-print(min(a,b))
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
+print('O maior peso lifo foi o {} Kg '.format(maior))
+print('O menor peso doi de {} kg '.format(menor))
