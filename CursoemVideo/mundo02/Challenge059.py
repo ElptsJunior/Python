@@ -22,7 +22,11 @@ while menu != 5:
     elif menu == 2:
         print('the multplication of {} * {} was '.format(a,b,(a*b)))
     elif menu == 3:
-        print('the max value insert between {} & {} was :'.format(a,b,max(a,b)))
+        if a > b:
+            wopper = a
+        else:
+            wopper = b
+        print('the max value insert between {} & {} was :'.format(a,b,wopper))
     elif menu == 4:
 
         a = int(input("insert the first number: "))
