@@ -31,17 +31,7 @@ while menu != 5:
 
         a = int(input("insert the first number: "))
         b = int(input('insert the second number: '))
-        sleep(1)
-        print('right!')
-        sleep(2)
-        print('Now pick one of operation botton:')
-        sleep(1)
-        menu = int(input('''
-        [1] for sum
-        [2] for multiplicate
-        [3] for max
-        [4] for enter new numbers
-        [5] for exit of program '''))
+
     else:
         print('incorrect option')
         sleep(3)
