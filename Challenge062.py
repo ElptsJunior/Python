@@ -1,15 +1,20 @@
 index = 1
-cont = 10
-arg = int(input('insert the 1fst term: '))
-reason =int (input('insert the interval of P.a :'))
-term = arg
-while index <= 10:
-    print('{}->'.format(term), end='')
-    term += reason
-    index += 1
-    cont = int(input('how many add term do you whant to see ? :'))
-    while cont != 0:
-        cont += cont
-        print('{} -> '.format(term), end='')
-        term += reason
+loop = 10
+term = int(input('insert the 1first term: '))
+while term != 0:
+   #term = int(input('insert the 1first term: '))
+    reason =int (input('insert the interval of P.a :'))
+    pa = term
+    while index <= loop:
+        print('{}->'.format(pa), end='')
+        pa += reason
         index += 1
+    loop = int(input('how many time do you whant to repeat?: '))
+    for index in range(index, loop):
+        print("{}->".format(pa), end='')
+        pa += reason
+        index += 1
+    term = int(input('insert the 1first term again: '))
+    index = 0
+
+
