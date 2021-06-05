@@ -10,6 +10,7 @@ while term != 0:
         pa += reason
         index += 1
     loop = int(input('how many time do you whant to repeat?: '))
+    loop = loop+index
     for index in range(index, loop):
         print("{}->".format(pa), end='')
         pa += reason
