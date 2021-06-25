@@ -1,17 +1,19 @@
 from time import sleep
-numbers = 0
+numbers = int
+maxi = 0
+min = 999
 index = 0
-total = 0
-quiz = ''
-while quiz != 'N':
+total = int
+quiz = 'Y'
+while index <= 6:
     numbers = int(input('type an number: '))
+    if numbers > maxi:
+        maxi = numbers
+    elif numbers > -1:
+        min = numbers
     total = numbers + numbers
     index += 1
-    quiz = input('Did you want to continue insert news numbers? Y/N :').upper()[0].split()
-quiz = quiz
-print('end')
-print('the average of number is {}'.format(index / total))
-sleep(3)
-print(' the max value is {}'.format(max(numbers)))
-sleep(2)
-print(' the min is {} '.format(min(numbers)))
+
+print(' the average of numbers is {} '.format(total))
+print(maxi, min)
+
