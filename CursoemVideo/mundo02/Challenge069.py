@@ -8,11 +8,11 @@ while True:
     else:
         if yearold > 18 :
             over18 += 1
-        elif gender in 'M':
-            male += 1
+            if gender == 'M':
+                male += 1
 
-        elif gender in 'F' and yearold < 20:
-            under20 += 1
+            elif gender == 'F' and yearold < 20:
+                under20 += 1
 
 print( f'A) Total of people over 18 years old was { over18 }')
 print(f' B) How manny Men was cadastred ? { male }')
