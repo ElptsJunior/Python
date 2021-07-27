@@ -4,9 +4,10 @@ while True:
     product = float(input('price R$: '))
     total += product
     keep = str( input('did you what to continue [y / N]')).split()[0].upper()
+    little = p
     #while keep != 'Y' or 'N':
      #   keep = str(input('did you what to continue??')).split()[0].upper()
-    if keep == "N ":
+    if keep == "N":
         break
     else:
         if product > 1:
