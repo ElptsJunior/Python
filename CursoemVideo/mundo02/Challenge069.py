@@ -1,7 +1,9 @@
 gender = yearold = keep = under20 = over18 = male =  0
 while True:
     yearold = int(input('How old are you ? '))
-    gender = str(input('Male or female ? M / F')).split()[0].upper()
+    gender = "  "
+    while gender not in 'MF': #forcar a validacao de m ou f
+        gender = str(input('Male or female ? M / F')).split()[0].upper()
     keep = str(input(' did you whant to continue ? Y / N')).split()[0].upper()
     if keep in 'N':
         break
